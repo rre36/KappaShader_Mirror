@@ -15,3 +15,9 @@ As a result of many optimizations and improvements we came up with I decided to 
 This obviously also includes Kappa Shader, where the rewrite is already in-progress in the shape of a new version that I called "Kappa-Lite". Kappa-Lite is a much more optimized version of Kappa that is tweaked to give the best performance I can achieve without significant visual downgrades. Of course it also lacks a few effects or does then in lower quality, but this allows me to optimize better towards the features it does have. Aside from that there will also be a significant shift in the visuals, making the entire atmosphere look a lot more realistic and authentic, but without loosing it's uniqueness.<br>
 The regular Kappa version will also get an update based on Kappa Lite later on too, but with increased effects quality and amount to be on par with the current public release while still outperforming it both in terms of visuals and framerates.<br>
 **Good News:** Kappa-Lite is drawing close to release, which means you can very likely enjoy it yourself in less than a few weeks.
+
+****
+
+**For more detailed information and support check my discord server.**
+
+**RRe36's Kappa Server: [Discord Invite](https://discord.gg/y5xzQ6H)**
