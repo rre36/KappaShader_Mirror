@@ -25,7 +25,7 @@ description: Performance? What is that? Kappa
 navbar-links:
   #About Me: "aboutme"
   Screenshots: "screens"
-  Wiki: "https://github.com/rre36/glsl_kappa/wiki"
+  Wiki: "https://github.com/rre36/kappa_shader_web/wiki"
   Issues: "https://github.com/rre36/kappa_shader_web/issues"
   License: "https://github.com/rre36/kappa_shader_web/blob/master/LICENSE"
   Curseforge: "https://www.curseforge.com/minecraft/customization/kappa-shader-by-rre36"
