@@ -1,0 +1,14 @@
+.intro-header.big-img .page-heading, .intro-header.big-img .post-heading {
+    text-shadow: 0px 0px 10px #000;
+}
+.intro-header.big-img .post-heading {
+    padding: 120px 0;
+}
+.intro-header .post-heading h1 {
+    font-weight: 300;
+    font-size: 70px;
+}
+h1, h2, h3 {
+    font-weight: 400;
+    text-shadow: 0px 0px 10px #000;
+}
