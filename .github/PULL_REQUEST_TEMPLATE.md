@@ -1,5 +1,11 @@
-Please note that if you are trying to update **your** website, this is the wrong place to do so. Please carefully follow the Beautiful Jekyll instructions (found at https://github.com/daattali/beautiful-jekyll#readme) and make sure you submit changes to **your** version of the project.
+What is your intent:
 
-If your intention is to submit a Pull Request, please describe what your pull request achieves.
+What did you change:
 
-Thank you!
+Does it work:
+
+Does it cause bugs:
+
+Does it have any other side effect:
+
+Whatever you think of as necessary to tell about it:
