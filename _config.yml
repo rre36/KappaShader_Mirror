@@ -43,7 +43,7 @@ navbar-links:
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: https://raw.githubusercontent.com/rre36/kappa_shader_web/gh-pages/img/logo.png
+title-img: https://raw.githubusercontent.com/rre36/kappa_shader_web/master/img/logo.png
 
 # --- Background colour/image options --- #
 
