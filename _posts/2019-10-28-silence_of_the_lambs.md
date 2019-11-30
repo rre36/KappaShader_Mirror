@@ -16,7 +16,7 @@ This obviously also includes Kappa Shader, where the rewrite is already in-progr
 The regular Kappa version will also get an update based on Kappa Lite later on too, but with increased effects quality and amount to be on par with the current public release while still outperforming it both in terms of visuals and framerates.<br>
 **Good News:** Kappa-Lite is drawing close to release, which means you can very likely enjoy it yourself in less than a few weeks.
 
-****
+***
 
 **For more detailed information and support check my discord server.**
 
