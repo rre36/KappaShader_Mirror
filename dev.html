@@ -1,0 +1,97 @@
+---
+layout: page
+title: RRe36's Kappa Shader
+subtitle: Performance? What is that? Kappa
+use-site-title: true
+bigimg: 
+  - "/img/bg0.jpg"
+  - "/img/bg1.jpg"
+  - "/img/bg2.jpg"
+  - "/img/bg3.jpg"
+  - "/img/bg4.jpg"
+---
+<img alt="Total Downloads" src="https://img.shields.io/badge/Downloads-87k-%2346cc21?style=for-the-badge">
+<img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/rre36/kappa_shader_web?style=for-the-badge">
+<br>
+<div>
+  <h3>What is the Kappa Shader?</h3>
+  A shaderpack that aims towards a realistic, but also authentic look. So it is not plainly using physically accurate vales and equations like many other packs do.
+  Instead, while still using many accurate calculations, it is tweaked to reproduce what you could observe in nature, which usually goes beyond just having equations to describe most phenomenons.
+  <br>
+  For more information regarding requirements and features you can check the <a href="https://github.com/rre36/glsl_kappa/wiki">Wiki</a>.
+  <br>
+  <table style="width:50%; border:none; background:none">
+  <tr style="width:50%; border:none; background:none; max-height: 80px">
+    <th style="width:50%; border:none; background:none"><a href="https://www.patreon.com/bePatron?u=19790203" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script></th>
+    <th style="width:50%; border:none; background:none"><a href="https://www.curseforge.com/minecraft/customization/kappa-shader-by-rre36"><img alt="Curseforge" style="max-width:200px" src="https://raw.githubusercontent.com/rre36/rre36.github.io/master/img/curseforge.png"></a></th>
+  </tr>
+</table>
+</div>
+<hr>
+<div class="posts-list">
+  {% for post in paginator.posts %}
+  {% if post.tag = "dev" %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+	  <h2 class="post-title">{{ post.title }}</h2>
+
+	  {% if post.subtitle %}
+	  <h3 class="post-subtitle">
+	    {{ post.subtitle }}
+	  </h3>
+	  {% endif %}
+    </a>
+
+    <p class="post-meta">
+      Posted on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+
+    <div class="post-entry-container">
+      {% if post.image %}
+      <div class="post-image">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image }}">
+        </a>
+      </div>
+      {% endif %}
+      <div class="post-entry">
+        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+        {% assign excerpt_word_count = post.excerpt | number_of_words %}
+        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">(Show&nbsp;More)</a>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if post.tags.size > 0 %}
+    <div class="blog-tags">
+      Tags:
+      {% if site.link-tags %}
+      {% for tag in post.tags %}
+      <a href="{{ site.baseurl }}/tags#{{- tag -}}">{{- tag -}}</a>
+      {% endfor %}
+      {% else %}
+        {{ post.tags | join: ", " }}
+      {% endif %}
+    </div>
+    {% endif %}
+
+   </article>
+   {% endif %}
+  {% endfor %}
+</div>
+
+{% if paginator.total_pages > 1 %}
+<ul class="pager main-pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
