@@ -6,6 +6,6 @@ A Mirror for my Shaders. Basically, the place nobody looks for, but just clicks 
 
 ## Shaders
 
-Link: https://github.com/rre36/KappaShader_Mirror/releases/download/v4.0/Kappa_v4.0.zip
+Link: https://rre36.com/kappa-shader
 
 Thanks for comming to my TED talk, and please donate to me on my Patreon for making projects like these possible 
